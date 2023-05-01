@@ -1,0 +1,92 @@
+db.mvr_name.insertMany([
+  {
+    "Reviewer_name": "John",
+    "movie_name": "The Dark Knight",
+    "genre": ["Action", "Crime"],
+    "director": "Christopher Nolan",
+    "rating": 9.0,
+    "timestamp": new Date("2008-07-18"),
+    "reviewer_occupation": "Engineer"
+  },
+  {
+    "Reviewer_name": "Emily",
+    "movie_name": "Get Out",
+    "genre": ["Horror", "Mystery"],
+    "director": "Jordan Peele",
+    "rating": 8.0,
+    "timestamp": new Date("2017-02-24"),
+    "reviewer_occupation": "Writer"
+  },
+  {
+    "Reviewer_name": "Alex",
+    "movie_name": "The Grand Budapest Hotel",
+    "genre": ["Comedy", "Drama"],
+    "director": "Wes Anderson",
+    "rating": 8.5,
+    "timestamp": new Date("2014-03-07"),
+    "reviewer_occupation": "Teacher"
+  },
+  {
+    "Reviewer_name": "Sarah",
+    "movie_name": "The Lion King",
+    "genre": ["Animation", "Adventure"],
+    "director": "Roger Allers",
+    "rating": 8.5,
+    "timestamp": new Date("1994-06-15"),
+    "reviewer_occupation": "Student"
+  },
+  {
+    "Reviewer_name": "Tom",
+    "movie_name": "The Godfather",
+    "genre": ["Crime", "Drama"],
+    "director": "Francis Ford Coppola",
+    "rating": 9.2,
+    "timestamp": new Date("1972-03-24"),
+    "reviewer_occupation": "Lawyer"
+  },
+  {
+    "Reviewer_name": "Jenny",
+    "movie_name": "The Conjuring",
+    "genre": ["Horror", "Thriller"],
+    "director": "James Wan",
+    "rating": 7.5,
+    "timestamp": new Date("2013-07-19"),
+    "reviewer_occupation": "Doctor"
+  },
+  {
+    "Reviewer_name": "Max",
+    "movie_name": "The Incredibles",
+    "genre": ["Animation", "Action"],
+    "director": "Brad Bird",
+    "rating": 8.0,
+    "timestamp": new Date("2004-11-05"),
+    "reviewer_occupation": "Engineer"
+  },
+  {
+    "Reviewer_name": "Lena",
+    "movie_name": "Inception",
+    "genre": ["Action", "Adventure"],
+    "director": "Christopher Nolan",
+    "rating": 8.8,
+    "timestamp": new Date("2010-07-16"),
+    "reviewer_occupation": "Artist"
+  },
+  {
+    "Reviewer_name": "David",
+    "movie_name": "Pulp Fiction",
+    "genre": ["Crime", "Drama"],
+    "director": "Quentin Tarantino",
+    "rating": 8.9,
+    "timestamp": new Date("1994-05-12"),
+    "reviewer_occupation": "Journalist"
+  },
+  {
+    "Reviewer_name": "Sophia",
+    "movie_name": "Up",
+    "genre": ["Animation", "Adventure"],
+    "director": "Pete Docter",
+    "rating": 8.2,
+    "timestamp": new Date("1994-05-12"),
+    "reviewer_occupation": "Journalist"
+  }
+])
